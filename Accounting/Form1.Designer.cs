@@ -450,6 +450,52 @@
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tabPage10 = new System.Windows.Forms.TabPage();
+            this.tabPage11 = new System.Windows.Forms.TabPage();
+            this.groupBox9 = new System.Windows.Forms.GroupBox();
+            this.tableLayoutPanel9 = new System.Windows.Forms.TableLayoutPanel();
+            this.panel106 = new System.Windows.Forms.Panel();
+            this.radioButton211 = new System.Windows.Forms.RadioButton();
+            this.radioButton212 = new System.Windows.Forms.RadioButton();
+            this.label99 = new System.Windows.Forms.Label();
+            this.label100 = new System.Windows.Forms.Label();
+            this.label101 = new System.Windows.Forms.Label();
+            this.panel108 = new System.Windows.Forms.Panel();
+            this.radioButton215 = new System.Windows.Forms.RadioButton();
+            this.radioButton216 = new System.Windows.Forms.RadioButton();
+            this.groupBox10 = new System.Windows.Forms.GroupBox();
+            this.tableLayoutPanel10 = new System.Windows.Forms.TableLayoutPanel();
+            this.panel102 = new System.Windows.Forms.Panel();
+            this.radioButton203 = new System.Windows.Forms.RadioButton();
+            this.radioButton204 = new System.Windows.Forms.RadioButton();
+            this.panel103 = new System.Windows.Forms.Panel();
+            this.radioButton205 = new System.Windows.Forms.RadioButton();
+            this.radioButton206 = new System.Windows.Forms.RadioButton();
+            this.panel104 = new System.Windows.Forms.Panel();
+            this.radioButton207 = new System.Windows.Forms.RadioButton();
+            this.radioButton208 = new System.Windows.Forms.RadioButton();
+            this.panel105 = new System.Windows.Forms.Panel();
+            this.radioButton209 = new System.Windows.Forms.RadioButton();
+            this.radioButton210 = new System.Windows.Forms.RadioButton();
+            this.panel109 = new System.Windows.Forms.Panel();
+            this.radioButton217 = new System.Windows.Forms.RadioButton();
+            this.radioButton218 = new System.Windows.Forms.RadioButton();
+            this.label102 = new System.Windows.Forms.Label();
+            this.label103 = new System.Windows.Forms.Label();
+            this.label104 = new System.Windows.Forms.Label();
+            this.label105 = new System.Windows.Forms.Label();
+            this.label106 = new System.Windows.Forms.Label();
+            this.label107 = new System.Windows.Forms.Label();
+            this.label108 = new System.Windows.Forms.Label();
+            this.panel111 = new System.Windows.Forms.Panel();
+            this.radioButton221 = new System.Windows.Forms.RadioButton();
+            this.radioButton222 = new System.Windows.Forms.RadioButton();
+            this.panel100 = new System.Windows.Forms.Panel();
+            this.radioButton199 = new System.Windows.Forms.RadioButton();
+            this.radioButton200 = new System.Windows.Forms.RadioButton();
+            this.panel97 = new System.Windows.Forms.Panel();
+            this.radioButton193 = new System.Windows.Forms.RadioButton();
+            this.radioButton194 = new System.Windows.Forms.RadioButton();
             this.menuStrip1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -574,6 +620,22 @@
             this.panel95.SuspendLayout();
             this.tabPage9.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.tabPage10.SuspendLayout();
+            this.tabPage11.SuspendLayout();
+            this.groupBox9.SuspendLayout();
+            this.tableLayoutPanel9.SuspendLayout();
+            this.panel106.SuspendLayout();
+            this.panel108.SuspendLayout();
+            this.groupBox10.SuspendLayout();
+            this.tableLayoutPanel10.SuspendLayout();
+            this.panel102.SuspendLayout();
+            this.panel103.SuspendLayout();
+            this.panel104.SuspendLayout();
+            this.panel105.SuspendLayout();
+            this.panel109.SuspendLayout();
+            this.panel111.SuspendLayout();
+            this.panel100.SuspendLayout();
+            this.panel97.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -596,7 +658,7 @@
             this.сформироватьОтчетWordToolStripMenuItem,
             this.показатьРезульатыВПрограммеToolStripMenuItem});
             this.менюToolStripMenuItem.Name = "менюToolStripMenuItem";
-            this.менюToolStripMenuItem.Size = new System.Drawing.Size(70, 24);
+            this.менюToolStripMenuItem.Size = new System.Drawing.Size(70, 26);
             this.менюToolStripMenuItem.Text = "Меню";
             // 
             // сформироватьОтчетWordToolStripMenuItem
@@ -616,6 +678,8 @@
             // tabControl1
             // 
             this.tabControl1.Appearance = System.Windows.Forms.TabAppearance.FlatButtons;
+            this.tabControl1.Controls.Add(this.tabPage10);
+            this.tabControl1.Controls.Add(this.tabPage11);
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Controls.Add(this.tabPage3);
@@ -5289,6 +5353,529 @@
             this.Column4.Name = "Column4";
             this.Column4.Width = 297;
             // 
+            // tabPage10
+            // 
+            this.tabPage10.Controls.Add(this.groupBox9);
+            this.tabPage10.Location = new System.Drawing.Point(4, 32);
+            this.tabPage10.Name = "tabPage10";
+            this.tabPage10.Size = new System.Drawing.Size(1456, 991);
+            this.tabPage10.TabIndex = 9;
+            this.tabPage10.Text = "Показатель № 2";
+            this.tabPage10.UseVisualStyleBackColor = true;
+            // 
+            // tabPage11
+            // 
+            this.tabPage11.Controls.Add(this.groupBox10);
+            this.tabPage11.Location = new System.Drawing.Point(4, 32);
+            this.tabPage11.Name = "tabPage11";
+            this.tabPage11.Size = new System.Drawing.Size(1456, 991);
+            this.tabPage11.TabIndex = 10;
+            this.tabPage11.Text = "Показатель № 3";
+            this.tabPage11.UseVisualStyleBackColor = true;
+            // 
+            // groupBox9
+            // 
+            this.groupBox9.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.groupBox9.Controls.Add(this.tableLayoutPanel9);
+            this.groupBox9.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.groupBox9.Location = new System.Drawing.Point(0, 0);
+            this.groupBox9.Name = "groupBox9";
+            this.groupBox9.Size = new System.Drawing.Size(1456, 991);
+            this.groupBox9.TabIndex = 30;
+            this.groupBox9.TabStop = false;
+            this.groupBox9.Text = "№ 2 Активное выявление, учет и регистрация, анализ ИСМП среди пациентов и персона" +
+    "ла";
+            // 
+            // tableLayoutPanel9
+            // 
+            this.tableLayoutPanel9.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.tableLayoutPanel9.BackColor = System.Drawing.Color.Silver;
+            this.tableLayoutPanel9.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.InsetDouble;
+            this.tableLayoutPanel9.ColumnCount = 2;
+            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 86.24339F));
+            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 13.75661F));
+            this.tableLayoutPanel9.Controls.Add(this.label99, 0, 0);
+            this.tableLayoutPanel9.Controls.Add(this.label100, 0, 1);
+            this.tableLayoutPanel9.Controls.Add(this.label101, 0, 2);
+            this.tableLayoutPanel9.Controls.Add(this.panel108, 1, 0);
+            this.tableLayoutPanel9.Controls.Add(this.panel106, 1, 1);
+            this.tableLayoutPanel9.Controls.Add(this.panel97, 1, 2);
+            this.tableLayoutPanel9.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel9.Location = new System.Drawing.Point(3, 24);
+            this.tableLayoutPanel9.Name = "tableLayoutPanel9";
+            this.tableLayoutPanel9.RowCount = 3;
+            this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333334F));
+            this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333334F));
+            this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333334F));
+            this.tableLayoutPanel9.Size = new System.Drawing.Size(1450, 964);
+            this.tableLayoutPanel9.TabIndex = 51;
+            // 
+            // panel106
+            // 
+            this.panel106.Controls.Add(this.radioButton211);
+            this.panel106.Controls.Add(this.radioButton212);
+            this.panel106.Location = new System.Drawing.Point(1251, 326);
+            this.panel106.Name = "panel106";
+            this.panel106.Size = new System.Drawing.Size(143, 33);
+            this.panel106.TabIndex = 30;
+            // 
+            // radioButton211
+            // 
+            this.radioButton211.AutoSize = true;
+            this.radioButton211.Location = new System.Drawing.Point(82, 4);
+            this.radioButton211.Name = "radioButton211";
+            this.radioButton211.Size = new System.Drawing.Size(59, 24);
+            this.radioButton211.TabIndex = 1;
+            this.radioButton211.TabStop = true;
+            this.radioButton211.Text = "Нет";
+            this.radioButton211.UseVisualStyleBackColor = true;
+            // 
+            // radioButton212
+            // 
+            this.radioButton212.AutoSize = true;
+            this.radioButton212.Location = new System.Drawing.Point(4, 4);
+            this.radioButton212.Name = "radioButton212";
+            this.radioButton212.Size = new System.Drawing.Size(50, 24);
+            this.radioButton212.TabIndex = 0;
+            this.radioButton212.TabStop = true;
+            this.radioButton212.Text = "Да";
+            this.radioButton212.UseVisualStyleBackColor = true;
+            // 
+            // label99
+            // 
+            this.label99.AutoSize = true;
+            this.label99.Location = new System.Drawing.Point(7, 3);
+            this.label99.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label99.Name = "label99";
+            this.label99.Size = new System.Drawing.Size(1229, 20);
+            this.label99.TabIndex = 10;
+            this.label99.Text = "1. Локальный приказ утверждающий перечень стандартных определений случаев (СОС) И" +
+    "СМП для эпидемиологического надзора имеется в общем доступе";
+            // 
+            // label100
+            // 
+            this.label100.AutoSize = true;
+            this.label100.Location = new System.Drawing.Point(7, 323);
+            this.label100.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label100.Name = "label100";
+            this.label100.Size = new System.Drawing.Size(902, 20);
+            this.label100.TabIndex = 18;
+            this.label100.Text = "2. Персонал имеет навыки использования перечня СОС в работе для эпидемиологическо" +
+    "го надзора (метод опроса)";
+            // 
+            // label101
+            // 
+            this.label101.AutoSize = true;
+            this.label101.Location = new System.Drawing.Point(7, 643);
+            this.label101.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label101.Name = "label101";
+            this.label101.Size = new System.Drawing.Size(981, 20);
+            this.label101.TabIndex = 19;
+            this.label101.Text = "3. Проводится регистрация каждого случая ИСМП в Журнале учета инфекционной и пара" +
+    "зитарной заболеваемости (ф. 60/у)";
+            // 
+            // panel108
+            // 
+            this.panel108.Controls.Add(this.radioButton215);
+            this.panel108.Controls.Add(this.radioButton216);
+            this.panel108.Location = new System.Drawing.Point(1251, 6);
+            this.panel108.Name = "panel108";
+            this.panel108.Size = new System.Drawing.Size(143, 33);
+            this.panel108.TabIndex = 40;
+            // 
+            // radioButton215
+            // 
+            this.radioButton215.AutoSize = true;
+            this.radioButton215.Location = new System.Drawing.Point(82, 4);
+            this.radioButton215.Name = "radioButton215";
+            this.radioButton215.Size = new System.Drawing.Size(59, 24);
+            this.radioButton215.TabIndex = 1;
+            this.radioButton215.TabStop = true;
+            this.radioButton215.Text = "Нет";
+            this.radioButton215.UseVisualStyleBackColor = true;
+            // 
+            // radioButton216
+            // 
+            this.radioButton216.AutoSize = true;
+            this.radioButton216.Location = new System.Drawing.Point(4, 4);
+            this.radioButton216.Name = "radioButton216";
+            this.radioButton216.Size = new System.Drawing.Size(50, 24);
+            this.radioButton216.TabIndex = 0;
+            this.radioButton216.TabStop = true;
+            this.radioButton216.Text = "Да";
+            this.radioButton216.UseVisualStyleBackColor = true;
+            // 
+            // groupBox10
+            // 
+            this.groupBox10.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.groupBox10.Controls.Add(this.tableLayoutPanel10);
+            this.groupBox10.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.groupBox10.Location = new System.Drawing.Point(0, 0);
+            this.groupBox10.Name = "groupBox10";
+            this.groupBox10.Size = new System.Drawing.Size(1456, 991);
+            this.groupBox10.TabIndex = 30;
+            this.groupBox10.TabStop = false;
+            this.groupBox10.Text = "№ 3 Организация микробиологических исследований (включая случай подозрения ИСМП)";
+            // 
+            // tableLayoutPanel10
+            // 
+            this.tableLayoutPanel10.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.tableLayoutPanel10.BackColor = System.Drawing.Color.Silver;
+            this.tableLayoutPanel10.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.InsetDouble;
+            this.tableLayoutPanel10.ColumnCount = 2;
+            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 86.24339F));
+            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 13.75661F));
+            this.tableLayoutPanel10.Controls.Add(this.panel102, 1, 6);
+            this.tableLayoutPanel10.Controls.Add(this.panel103, 1, 5);
+            this.tableLayoutPanel10.Controls.Add(this.panel104, 1, 4);
+            this.tableLayoutPanel10.Controls.Add(this.label102, 0, 0);
+            this.tableLayoutPanel10.Controls.Add(this.label103, 0, 1);
+            this.tableLayoutPanel10.Controls.Add(this.label104, 0, 2);
+            this.tableLayoutPanel10.Controls.Add(this.label105, 0, 3);
+            this.tableLayoutPanel10.Controls.Add(this.label106, 0, 4);
+            this.tableLayoutPanel10.Controls.Add(this.label107, 0, 5);
+            this.tableLayoutPanel10.Controls.Add(this.label108, 0, 6);
+            this.tableLayoutPanel10.Controls.Add(this.panel111, 1, 0);
+            this.tableLayoutPanel10.Controls.Add(this.panel109, 1, 2);
+            this.tableLayoutPanel10.Controls.Add(this.panel105, 1, 1);
+            this.tableLayoutPanel10.Controls.Add(this.panel100, 1, 3);
+            this.tableLayoutPanel10.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel10.Location = new System.Drawing.Point(3, 24);
+            this.tableLayoutPanel10.Name = "tableLayoutPanel10";
+            this.tableLayoutPanel10.RowCount = 7;
+            this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333334F));
+            this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333334F));
+            this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333334F));
+            this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333334F));
+            this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333334F));
+            this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333334F));
+            this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333334F));
+            this.tableLayoutPanel10.Size = new System.Drawing.Size(1450, 964);
+            this.tableLayoutPanel10.TabIndex = 51;
+            // 
+            // panel102
+            // 
+            this.panel102.Controls.Add(this.radioButton203);
+            this.panel102.Controls.Add(this.radioButton204);
+            this.panel102.Location = new System.Drawing.Point(1251, 828);
+            this.panel102.Name = "panel102";
+            this.panel102.Size = new System.Drawing.Size(143, 33);
+            this.panel102.TabIndex = 34;
+            // 
+            // radioButton203
+            // 
+            this.radioButton203.AutoSize = true;
+            this.radioButton203.Location = new System.Drawing.Point(82, 4);
+            this.radioButton203.Name = "radioButton203";
+            this.radioButton203.Size = new System.Drawing.Size(59, 24);
+            this.radioButton203.TabIndex = 1;
+            this.radioButton203.TabStop = true;
+            this.radioButton203.Text = "Нет";
+            this.radioButton203.UseVisualStyleBackColor = true;
+            // 
+            // radioButton204
+            // 
+            this.radioButton204.AutoSize = true;
+            this.radioButton204.Location = new System.Drawing.Point(4, 4);
+            this.radioButton204.Name = "radioButton204";
+            this.radioButton204.Size = new System.Drawing.Size(50, 24);
+            this.radioButton204.TabIndex = 0;
+            this.radioButton204.TabStop = true;
+            this.radioButton204.Text = "Да";
+            this.radioButton204.UseVisualStyleBackColor = true;
+            // 
+            // panel103
+            // 
+            this.panel103.Controls.Add(this.radioButton205);
+            this.panel103.Controls.Add(this.radioButton206);
+            this.panel103.Location = new System.Drawing.Point(1251, 691);
+            this.panel103.Name = "panel103";
+            this.panel103.Size = new System.Drawing.Size(143, 33);
+            this.panel103.TabIndex = 33;
+            // 
+            // radioButton205
+            // 
+            this.radioButton205.AutoSize = true;
+            this.radioButton205.Location = new System.Drawing.Point(82, 4);
+            this.radioButton205.Name = "radioButton205";
+            this.radioButton205.Size = new System.Drawing.Size(59, 24);
+            this.radioButton205.TabIndex = 1;
+            this.radioButton205.TabStop = true;
+            this.radioButton205.Text = "Нет";
+            this.radioButton205.UseVisualStyleBackColor = true;
+            // 
+            // radioButton206
+            // 
+            this.radioButton206.AutoSize = true;
+            this.radioButton206.Location = new System.Drawing.Point(4, 4);
+            this.radioButton206.Name = "radioButton206";
+            this.radioButton206.Size = new System.Drawing.Size(50, 24);
+            this.radioButton206.TabIndex = 0;
+            this.radioButton206.TabStop = true;
+            this.radioButton206.Text = "Да";
+            this.radioButton206.UseVisualStyleBackColor = true;
+            // 
+            // panel104
+            // 
+            this.panel104.Controls.Add(this.radioButton207);
+            this.panel104.Controls.Add(this.radioButton208);
+            this.panel104.Location = new System.Drawing.Point(1251, 554);
+            this.panel104.Name = "panel104";
+            this.panel104.Size = new System.Drawing.Size(143, 33);
+            this.panel104.TabIndex = 32;
+            // 
+            // radioButton207
+            // 
+            this.radioButton207.AutoSize = true;
+            this.radioButton207.Location = new System.Drawing.Point(82, 4);
+            this.radioButton207.Name = "radioButton207";
+            this.radioButton207.Size = new System.Drawing.Size(59, 24);
+            this.radioButton207.TabIndex = 1;
+            this.radioButton207.TabStop = true;
+            this.radioButton207.Text = "Нет";
+            this.radioButton207.UseVisualStyleBackColor = true;
+            // 
+            // radioButton208
+            // 
+            this.radioButton208.AutoSize = true;
+            this.radioButton208.Location = new System.Drawing.Point(4, 4);
+            this.radioButton208.Name = "radioButton208";
+            this.radioButton208.Size = new System.Drawing.Size(50, 24);
+            this.radioButton208.TabIndex = 0;
+            this.radioButton208.TabStop = true;
+            this.radioButton208.Text = "Да";
+            this.radioButton208.UseVisualStyleBackColor = true;
+            // 
+            // panel105
+            // 
+            this.panel105.Controls.Add(this.radioButton209);
+            this.panel105.Controls.Add(this.radioButton210);
+            this.panel105.Location = new System.Drawing.Point(1251, 143);
+            this.panel105.Name = "panel105";
+            this.panel105.Size = new System.Drawing.Size(143, 33);
+            this.panel105.TabIndex = 31;
+            // 
+            // radioButton209
+            // 
+            this.radioButton209.AutoSize = true;
+            this.radioButton209.Location = new System.Drawing.Point(82, 4);
+            this.radioButton209.Name = "radioButton209";
+            this.radioButton209.Size = new System.Drawing.Size(59, 24);
+            this.radioButton209.TabIndex = 1;
+            this.radioButton209.TabStop = true;
+            this.radioButton209.Text = "Нет";
+            this.radioButton209.UseVisualStyleBackColor = true;
+            // 
+            // radioButton210
+            // 
+            this.radioButton210.AutoSize = true;
+            this.radioButton210.Location = new System.Drawing.Point(4, 4);
+            this.radioButton210.Name = "radioButton210";
+            this.radioButton210.Size = new System.Drawing.Size(50, 24);
+            this.radioButton210.TabIndex = 0;
+            this.radioButton210.TabStop = true;
+            this.radioButton210.Text = "Да";
+            this.radioButton210.UseVisualStyleBackColor = true;
+            // 
+            // panel109
+            // 
+            this.panel109.Controls.Add(this.radioButton217);
+            this.panel109.Controls.Add(this.radioButton218);
+            this.panel109.Location = new System.Drawing.Point(1251, 280);
+            this.panel109.Name = "panel109";
+            this.panel109.Size = new System.Drawing.Size(143, 33);
+            this.panel109.TabIndex = 30;
+            // 
+            // radioButton217
+            // 
+            this.radioButton217.AutoSize = true;
+            this.radioButton217.Location = new System.Drawing.Point(82, 4);
+            this.radioButton217.Name = "radioButton217";
+            this.radioButton217.Size = new System.Drawing.Size(59, 24);
+            this.radioButton217.TabIndex = 1;
+            this.radioButton217.TabStop = true;
+            this.radioButton217.Text = "Нет";
+            this.radioButton217.UseVisualStyleBackColor = true;
+            // 
+            // radioButton218
+            // 
+            this.radioButton218.AutoSize = true;
+            this.radioButton218.Location = new System.Drawing.Point(4, 4);
+            this.radioButton218.Name = "radioButton218";
+            this.radioButton218.Size = new System.Drawing.Size(50, 24);
+            this.radioButton218.TabIndex = 0;
+            this.radioButton218.TabStop = true;
+            this.radioButton218.Text = "Да";
+            this.radioButton218.UseVisualStyleBackColor = true;
+            // 
+            // label102
+            // 
+            this.label102.AutoSize = true;
+            this.label102.Location = new System.Drawing.Point(7, 3);
+            this.label102.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label102.Name = "label102";
+            this.label102.Size = new System.Drawing.Size(1176, 20);
+            this.label102.TabIndex = 10;
+            this.label102.Text = "1. Разработан и внедрен в работу протокол микробиологического мониторинга (в виде" +
+    " СОП) с целью определения этиологической структуры ИСМП";
+            // 
+            // label103
+            // 
+            this.label103.AutoSize = true;
+            this.label103.Location = new System.Drawing.Point(7, 140);
+            this.label103.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label103.Name = "label103";
+            this.label103.Size = new System.Drawing.Size(933, 20);
+            this.label103.TabIndex = 18;
+            this.label103.Text = "2. Разработан и внедрен в работу СОП Алгоритм процедуры забора материала для микр" +
+    "обиологических исследований";
+            // 
+            // label104
+            // 
+            this.label104.AutoSize = true;
+            this.label104.Location = new System.Drawing.Point(7, 277);
+            this.label104.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label104.Name = "label104";
+            this.label104.Size = new System.Drawing.Size(577, 20);
+            this.label104.TabIndex = 19;
+            this.label104.Text = "3. Персонал имеет навыки исполнения СОП (метод наблюдения, опроса)";
+            // 
+            // label105
+            // 
+            this.label105.AutoSize = true;
+            this.label105.Location = new System.Drawing.Point(7, 414);
+            this.label105.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label105.Name = "label105";
+            this.label105.Size = new System.Drawing.Size(770, 20);
+            this.label105.TabIndex = 21;
+            this.label105.Text = "4. Микробиологический мониторинг осуществляет по договору с аккредитованной лабор" +
+    "аторией";
+            // 
+            // label106
+            // 
+            this.label106.AutoSize = true;
+            this.label106.Location = new System.Drawing.Point(7, 551);
+            this.label106.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label106.Name = "label106";
+            this.label106.Size = new System.Drawing.Size(1163, 40);
+            this.label106.TabIndex = 23;
+            this.label106.Text = "5. Получение результатов микробиологического исследования, происходит в сроки 72-" +
+    "96 часов, в зависимости от вида возбудителя и исследуемого материала";
+            // 
+            // label107
+            // 
+            this.label107.AutoSize = true;
+            this.label107.Location = new System.Drawing.Point(7, 688);
+            this.label107.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label107.Name = "label107";
+            this.label107.Size = new System.Drawing.Size(706, 20);
+            this.label107.TabIndex = 24;
+            this.label107.Text = "6. Клинический материал берется по возможности до начала антибактериальной терапи" +
+    "и";
+            // 
+            // label108
+            // 
+            this.label108.AutoSize = true;
+            this.label108.Location = new System.Drawing.Point(7, 825);
+            this.label108.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label108.Name = "label108";
+            this.label108.Size = new System.Drawing.Size(623, 20);
+            this.label108.TabIndex = 23;
+            this.label108.Text = "7. Наличие расходных материалов для забора материала (пробирка, контейнер)";
+            // 
+            // panel111
+            // 
+            this.panel111.Controls.Add(this.radioButton221);
+            this.panel111.Controls.Add(this.radioButton222);
+            this.panel111.Location = new System.Drawing.Point(1251, 6);
+            this.panel111.Name = "panel111";
+            this.panel111.Size = new System.Drawing.Size(143, 33);
+            this.panel111.TabIndex = 40;
+            // 
+            // radioButton221
+            // 
+            this.radioButton221.AutoSize = true;
+            this.radioButton221.Location = new System.Drawing.Point(82, 4);
+            this.radioButton221.Name = "radioButton221";
+            this.radioButton221.Size = new System.Drawing.Size(59, 24);
+            this.radioButton221.TabIndex = 1;
+            this.radioButton221.TabStop = true;
+            this.radioButton221.Text = "Нет";
+            this.radioButton221.UseVisualStyleBackColor = true;
+            // 
+            // radioButton222
+            // 
+            this.radioButton222.AutoSize = true;
+            this.radioButton222.Location = new System.Drawing.Point(4, 4);
+            this.radioButton222.Name = "radioButton222";
+            this.radioButton222.Size = new System.Drawing.Size(50, 24);
+            this.radioButton222.TabIndex = 0;
+            this.radioButton222.TabStop = true;
+            this.radioButton222.Text = "Да";
+            this.radioButton222.UseVisualStyleBackColor = true;
+            // 
+            // panel100
+            // 
+            this.panel100.Controls.Add(this.radioButton199);
+            this.panel100.Controls.Add(this.radioButton200);
+            this.panel100.Location = new System.Drawing.Point(1251, 417);
+            this.panel100.Name = "panel100";
+            this.panel100.Size = new System.Drawing.Size(143, 33);
+            this.panel100.TabIndex = 42;
+            // 
+            // radioButton199
+            // 
+            this.radioButton199.AutoSize = true;
+            this.radioButton199.Location = new System.Drawing.Point(82, 4);
+            this.radioButton199.Name = "radioButton199";
+            this.radioButton199.Size = new System.Drawing.Size(59, 24);
+            this.radioButton199.TabIndex = 1;
+            this.radioButton199.TabStop = true;
+            this.radioButton199.Text = "Нет";
+            this.radioButton199.UseVisualStyleBackColor = true;
+            // 
+            // radioButton200
+            // 
+            this.radioButton200.AutoSize = true;
+            this.radioButton200.Location = new System.Drawing.Point(4, 4);
+            this.radioButton200.Name = "radioButton200";
+            this.radioButton200.Size = new System.Drawing.Size(50, 24);
+            this.radioButton200.TabIndex = 0;
+            this.radioButton200.TabStop = true;
+            this.radioButton200.Text = "Да";
+            this.radioButton200.UseVisualStyleBackColor = true;
+            // 
+            // panel97
+            // 
+            this.panel97.Controls.Add(this.radioButton193);
+            this.panel97.Controls.Add(this.radioButton194);
+            this.panel97.Location = new System.Drawing.Point(1251, 646);
+            this.panel97.Name = "panel97";
+            this.panel97.Size = new System.Drawing.Size(143, 33);
+            this.panel97.TabIndex = 41;
+            // 
+            // radioButton193
+            // 
+            this.radioButton193.AutoSize = true;
+            this.radioButton193.Location = new System.Drawing.Point(82, 4);
+            this.radioButton193.Name = "radioButton193";
+            this.radioButton193.Size = new System.Drawing.Size(59, 24);
+            this.radioButton193.TabIndex = 1;
+            this.radioButton193.TabStop = true;
+            this.radioButton193.Text = "Нет";
+            this.radioButton193.UseVisualStyleBackColor = true;
+            // 
+            // radioButton194
+            // 
+            this.radioButton194.AutoSize = true;
+            this.radioButton194.Location = new System.Drawing.Point(4, 4);
+            this.radioButton194.Name = "radioButton194";
+            this.radioButton194.Size = new System.Drawing.Size(50, 24);
+            this.radioButton194.TabIndex = 0;
+            this.radioButton194.TabStop = true;
+            this.radioButton194.Text = "Да";
+            this.radioButton194.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
@@ -5533,6 +6120,34 @@
             this.panel95.PerformLayout();
             this.tabPage9.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.tabPage10.ResumeLayout(false);
+            this.tabPage11.ResumeLayout(false);
+            this.groupBox9.ResumeLayout(false);
+            this.tableLayoutPanel9.ResumeLayout(false);
+            this.tableLayoutPanel9.PerformLayout();
+            this.panel106.ResumeLayout(false);
+            this.panel106.PerformLayout();
+            this.panel108.ResumeLayout(false);
+            this.panel108.PerformLayout();
+            this.groupBox10.ResumeLayout(false);
+            this.tableLayoutPanel10.ResumeLayout(false);
+            this.tableLayoutPanel10.PerformLayout();
+            this.panel102.ResumeLayout(false);
+            this.panel102.PerformLayout();
+            this.panel103.ResumeLayout(false);
+            this.panel103.PerformLayout();
+            this.panel104.ResumeLayout(false);
+            this.panel104.PerformLayout();
+            this.panel105.ResumeLayout(false);
+            this.panel105.PerformLayout();
+            this.panel109.ResumeLayout(false);
+            this.panel109.PerformLayout();
+            this.panel111.ResumeLayout(false);
+            this.panel111.PerformLayout();
+            this.panel100.ResumeLayout(false);
+            this.panel100.PerformLayout();
+            this.panel97.ResumeLayout(false);
+            this.panel97.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -5962,6 +6577,52 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TabPage tabPage10;
+        private System.Windows.Forms.GroupBox groupBox9;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel9;
+        private System.Windows.Forms.Panel panel106;
+        private System.Windows.Forms.RadioButton radioButton211;
+        private System.Windows.Forms.RadioButton radioButton212;
+        private System.Windows.Forms.Label label99;
+        private System.Windows.Forms.Label label100;
+        private System.Windows.Forms.Label label101;
+        private System.Windows.Forms.Panel panel108;
+        private System.Windows.Forms.RadioButton radioButton215;
+        private System.Windows.Forms.RadioButton radioButton216;
+        private System.Windows.Forms.TabPage tabPage11;
+        private System.Windows.Forms.GroupBox groupBox10;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel10;
+        private System.Windows.Forms.Panel panel102;
+        private System.Windows.Forms.RadioButton radioButton203;
+        private System.Windows.Forms.RadioButton radioButton204;
+        private System.Windows.Forms.Panel panel103;
+        private System.Windows.Forms.RadioButton radioButton205;
+        private System.Windows.Forms.RadioButton radioButton206;
+        private System.Windows.Forms.Panel panel104;
+        private System.Windows.Forms.RadioButton radioButton207;
+        private System.Windows.Forms.RadioButton radioButton208;
+        private System.Windows.Forms.Panel panel105;
+        private System.Windows.Forms.RadioButton radioButton209;
+        private System.Windows.Forms.RadioButton radioButton210;
+        private System.Windows.Forms.Panel panel109;
+        private System.Windows.Forms.RadioButton radioButton217;
+        private System.Windows.Forms.RadioButton radioButton218;
+        private System.Windows.Forms.Label label102;
+        private System.Windows.Forms.Label label103;
+        private System.Windows.Forms.Label label104;
+        private System.Windows.Forms.Label label105;
+        private System.Windows.Forms.Label label106;
+        private System.Windows.Forms.Label label107;
+        private System.Windows.Forms.Label label108;
+        private System.Windows.Forms.Panel panel111;
+        private System.Windows.Forms.RadioButton radioButton221;
+        private System.Windows.Forms.RadioButton radioButton222;
+        private System.Windows.Forms.Panel panel100;
+        private System.Windows.Forms.RadioButton radioButton199;
+        private System.Windows.Forms.RadioButton radioButton200;
+        private System.Windows.Forms.Panel panel97;
+        private System.Windows.Forms.RadioButton radioButton193;
+        private System.Windows.Forms.RadioButton radioButton194;
     }
 }
 

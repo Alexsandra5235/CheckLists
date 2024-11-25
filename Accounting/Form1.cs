@@ -1,4 +1,5 @@
-﻿using Microsoft.Office.Interop.Word;
+﻿using Microsoft.Office.Interop.Excel;
+using Microsoft.Office.Interop.Word;
 using OfficeOpenXml;
 using OfficeOpenXml.Style;
 using System;
@@ -14,6 +15,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Excel = Microsoft.Office.Interop.Excel;
+using GroupBox = System.Windows.Forms.GroupBox;
 using Word = Microsoft.Office.Interop.Word;
 
 
@@ -53,7 +55,8 @@ namespace Accounting
             if (e.TabPage == tabPage9) // Если пытаемся выбрать tabPage3
             {
                 e.Cancel = true; // Отменяем выбор
-                MessageBox.Show("Для перехода на эту вкладку сформируйте отчет в программе во вкладке 'Меню'");
+                MessageBox.Show("Для перехода в 'Результаты' во вкладке 'Меню' сформируйте отчет в программе.\n" +
+                    "Также все ответы должны быть получены!");
             }
         }
 
@@ -69,7 +72,7 @@ namespace Accounting
             Word.Document doc = wordApp.Documents.Add();
 
             // Определяем количество строк и столбцов
-            int rowCount = 10; 
+            int rowCount = tabControl1.TabCount + 1; 
             int columnCount = 4; // 4 столбца
 
             // Создаем таблицу
@@ -80,14 +83,16 @@ namespace Accounting
             table.Cell(2, 3).Range.Text = "75-80 (система в целом эффективна, требуются корректировки по отдельным разделам работ)";
             table.Cell(2, 4).Range.Text = "75 и ниже (система неэффективна, требуются существенные изменения)";
 
-            table.Cell(3, 1).Range.Text = "№ 5 Организация стерилизации"; // Пример данных для первого столбца
-            table.Cell(4, 1).Range.Text = "№ 6 Обеспечение эпидемиологической безопасности среды"; // Пример данных для второго столбца
-            table.Cell(5, 1).Range.Text = "№ 7 Обеспечение эпидемиологической безопасности медицинских технологий"; // Пример данных для третьего столбца
-            table.Cell(6, 1).Range.Text = "№ 8 Порядок оказания помощи пациентам, требующим изоляции (с инфекциями, передающимися воздушно-капельным путем, опасными инфекциями)"; // Пример данных для четвертого столбца
-            table.Cell(7, 1).Range.Text = "№ 9 Наличие полностью оборудованных мест для мытья и обработки рук"; // Пример данных для четвертого столбца
-            table.Cell(8, 1).Range.Text = "№ 10 Соблюдение правил гигиены рук персоналам"; // Пример данных для четвертого столбца
-            table.Cell(9, 1).Range.Text = "№ 11 Соблюдение персоналом алгоритма использования индивидуальных средств защиты"; // Пример данных для четвертого столбца
-            table.Cell(10, 1).Range.Text = "№ 12 Профилактика ИСМП у медицинского персонала"; // Пример данных для четвертого столбца
+            table.Cell(3, 1).Range.Text = "№ 2 Активное выявление, учет и регистрация, анализ ИСМП среди пациентов и персонала"; // Пример данных для первого столбца
+            table.Cell(4, 1).Range.Text = "№ 3 Организация микробиологических исследований (включая случай подозрения ИСМП)"; // Пример данных для второго столбца
+            table.Cell(5, 1).Range.Text = "№ 5 Организация стерилизации"; // Пример данных для первого столбца
+            table.Cell(6, 1).Range.Text = "№ 6 Обеспечение эпидемиологической безопасности среды"; // Пример данных для второго столбца
+            table.Cell(7, 1).Range.Text = "№ 7 Обеспечение эпидемиологической безопасности медицинских технологий"; // Пример данных для третьего столбца
+            table.Cell(8, 1).Range.Text = "№ 8 Порядок оказания помощи пациентам, требующим изоляции (с инфекциями, передающимися воздушно-капельным путем, опасными инфекциями)"; // Пример данных для четвертого столбца
+            table.Cell(9, 1).Range.Text = "№ 9 Наличие полностью оборудованных мест для мытья и обработки рук"; // Пример данных для четвертого столбца
+            table.Cell(10, 1).Range.Text = "№ 10 Соблюдение правил гигиены рук персоналам"; // Пример данных для четвертого столбца
+            table.Cell(11, 1).Range.Text = "№ 11 Соблюдение персоналом алгоритма использования индивидуальных средств защиты"; // Пример данных для четвертого столбца
+            table.Cell(12, 1).Range.Text = "№ 12 Профилактика ИСМП у медицинского персонала"; // Пример данных для четвертого столбца
             
             for (int i = 1; i <= rowCount; i++)
             {
@@ -242,9 +247,10 @@ namespace Accounting
         {
             try
             {
+               
                 if (!CheckRadioButton())
                 {
-                    MessageBox.Show("Похоже что не все кнопки отмечены!\n Проверьте, что вы ответили на все вопросы и повторите попытку :)");
+                    MessageBox.Show("Похоже что не все кнопки отмечены!\nПроверьте, что вы ответили на все вопросы и повторите попытку :)");
                     return;
                 }
                 CountResponses();
@@ -253,12 +259,12 @@ namespace Accounting
             catch
             {
                 MessageBox.Show("Ой, что-то пошло не так!\n" +
-                                $"Но мы все равно сохранили данные для вас." +
+                                $"Но мы все равно сохранили данные для вас.\n" +
                                 $"Можете с ними ознакомиться на вкладке 'Результаты'");
 
                 setDataGridView();
                 tabControl1.Selecting -= tabControl1_Selecting;
-                tabControl1.SelectedTab = tabControl1.TabPages[8];
+                tabControl1.SelectedTab = tabControl1.TabPages[10];
             }
             
         }
@@ -266,6 +272,8 @@ namespace Accounting
         {
             dataGridView1.Rows.Clear(); // Очищает строки, если они есть
 
+            dataGridView1.Rows.Add("№ 2 Активное выявление, учет и регистрация, анализ ИСМП среди пациентов и персонала"); // Пример данных для первого столбца
+            dataGridView1.Rows.Add("№ 3 Организация микробиологических исследований (включая случай подозрения ИСМП)");
             dataGridView1.Rows.Add("№ 5 Организация стерилизации"); // Пример данных для первого столбца
             dataGridView1.Rows.Add("№ 6 Обеспечение эпидемиологической безопасности среды"); // Пример данных для второго столбца
             dataGridView1.Rows.Add("№ 7 Обеспечение эпидемиологической безопасности медицинских технологий"); // Пример данных для третьего столбца
@@ -349,7 +357,15 @@ namespace Accounting
             usedRange.HorizontalAlignment = Excel.XlHAlign.xlHAlignCenter;
             usedRange.VerticalAlignment = Excel.XlHAlign.xlHAlignCenter;
 
-            
+
+
+            // Определение диапазона для обводки
+            Excel.Range range = worksheet.Range["A1",
+                worksheet.Cells[dataGridView1.Rows.Count + 1, dataGridView1.Columns.Count]];
+
+            // Установка стиля обводки
+            range.Borders.LineStyle = Excel.XlLineStyle.xlContinuous;
+            range.Borders.Weight = Excel.XlBorderWeight.xlThin;
 
             // Сохранение книги (при необходимости)
             // workbook.SaveAs("C:\\path\\to\\your\\file.xlsx");
@@ -369,27 +385,29 @@ namespace Accounting
 
         private void показатьРезульатыВПрограммеToolStripMenuItem_Click(object sender, EventArgs e)
         {
+
+
             try
             {
                 if (!CheckRadioButton())
                 {
-                    MessageBox.Show("Похоже что не все кнопки отмечены!\n Проверьте, что вы ответили на все вопросы и повторите попытку :)");
+                    MessageBox.Show("Похоже что не все кнопки отмечены!\nПроверьте, что вы ответили на все вопросы и повторите попытку :)");
                     return;
                 }
 
-                
+
                 tabControl1.Selecting -= tabControl1_Selecting;
 
                 CountResponses();
                 setDataGridView();
                 // Переход к TabPage с индексом 1 (второй TabPage)
-                tabControl1.SelectedTab = tabControl1.TabPages[8];
+                tabControl1.SelectedTab = tabControl1.TabPages[10];
             }
             catch
             {
 
             }
-            
+
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -401,19 +419,14 @@ namespace Accounting
         {
             try
             {
-                if (!CheckRadioButton())
-                {
-                    MessageBox.Show("Похоже, что в таблице нет данных!\n Проверьте, что вы ответили на все вопросы и повторите попытку :)");
-                    return;
-                }
                 ExportDataGridViewToExcel();
             }
-            catch
-            {
+            catch {
                 MessageBox.Show("Ой, что-то пошло не так!\n" +
-                               $"Но мы все равно сохранили данные для вас." +
-                               $"Можете с ними ознакомиться на вкладке 'Результаты'");
+                    "Но вы всегда можете ознакомиться с результатами на вкладке 'Результаты'.");
             }
+            
+            
             
         }
         //private void CheckIndicator()
