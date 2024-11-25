@@ -578,14 +578,14 @@
             // 
             // menuStrip1
             // 
-            this.menuStrip1.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.menuStrip1.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.menuStrip1.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.менюToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1464, 30);
+            this.menuStrip1.Size = new System.Drawing.Size(1464, 28);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -627,10 +627,10 @@
             this.tabControl1.Controls.Add(this.tabPage9);
             this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabControl1.HotTrack = true;
-            this.tabControl1.Location = new System.Drawing.Point(0, 30);
+            this.tabControl1.Location = new System.Drawing.Point(0, 28);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1464, 1025);
+            this.tabControl1.Size = new System.Drawing.Size(1464, 1027);
             this.tabControl1.TabIndex = 1;
             // 
             // tabPage1
@@ -640,7 +640,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 32);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1456, 989);
+            this.tabPage1.Size = new System.Drawing.Size(1456, 991);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Показатель № 5";
             // 
@@ -650,7 +650,7 @@
             this.groupBox5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox5.Location = new System.Drawing.Point(3, 3);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(1450, 983);
+            this.groupBox5.Size = new System.Drawing.Size(1450, 985);
             this.groupBox5.TabIndex = 29;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "№ 5 Организация стерилизации";
@@ -703,7 +703,7 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333334F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333334F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333334F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1444, 956);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1444, 958);
             this.tableLayoutPanel1.TabIndex = 51;
             // 
             // panel13
@@ -1209,7 +1209,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 32);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1456, 989);
+            this.tabPage2.Size = new System.Drawing.Size(1456, 991);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Показатель № 6";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -1221,7 +1221,7 @@
             this.groupBox1.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.groupBox1.Location = new System.Drawing.Point(3, 3);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(1450, 983);
+            this.groupBox1.Size = new System.Drawing.Size(1450, 985);
             this.groupBox1.TabIndex = 36;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "№ 6 Обеспечение эпидемиологической безопасности среды";
@@ -1320,7 +1320,7 @@
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 6.249999F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 6.249999F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 6.249999F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(1444, 956);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(1444, 958);
             this.tableLayoutPanel2.TabIndex = 51;
             // 
             // panel46
@@ -2669,7 +2669,7 @@
             this.tabPage3.Location = new System.Drawing.Point(4, 32);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(1456, 989);
+            this.tabPage3.Size = new System.Drawing.Size(1456, 991);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Показатель № 7";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -2680,7 +2680,7 @@
             this.groupBox2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox2.Location = new System.Drawing.Point(3, 3);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(1450, 983);
+            this.groupBox2.Size = new System.Drawing.Size(1450, 985);
             this.groupBox2.TabIndex = 30;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "№ 7 Обеспечение эпидемиологической безопасности медицинских технологий";
@@ -2721,7 +2721,7 @@
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333334F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333334F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333334F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(1444, 956);
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(1444, 958);
             this.tableLayoutPanel3.TabIndex = 51;
             // 
             // panel49
@@ -3062,7 +3062,7 @@
             this.tabPage4.Location = new System.Drawing.Point(4, 32);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(1456, 989);
+            this.tabPage4.Size = new System.Drawing.Size(1456, 991);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Показатель № 8";
             this.tabPage4.UseVisualStyleBackColor = true;
@@ -3073,7 +3073,7 @@
             this.groupBox3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox3.Location = new System.Drawing.Point(3, 3);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(1450, 983);
+            this.groupBox3.Size = new System.Drawing.Size(1450, 985);
             this.groupBox3.TabIndex = 30;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "№ 8 Порядок оказания помощи пациентам, требующим изоляции (с инфекциями, передающ" +
@@ -3118,14 +3118,14 @@
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333334F));
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333334F));
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333334F));
-            this.tableLayoutPanel4.Size = new System.Drawing.Size(1444, 956);
+            this.tableLayoutPanel4.Size = new System.Drawing.Size(1444, 958);
             this.tableLayoutPanel4.TabIndex = 51;
             // 
             // panel48
             // 
             this.panel48.Controls.Add(this.radioButton95);
             this.panel48.Controls.Add(this.radioButton96);
-            this.panel48.Location = new System.Drawing.Point(1246, 846);
+            this.panel48.Location = new System.Drawing.Point(1246, 854);
             this.panel48.Name = "panel48";
             this.panel48.Size = new System.Drawing.Size(143, 33);
             this.panel48.TabIndex = 36;
@@ -3156,7 +3156,7 @@
             // 
             this.panel57.Controls.Add(this.radioButton113);
             this.panel57.Controls.Add(this.radioButton114);
-            this.panel57.Location = new System.Drawing.Point(1246, 741);
+            this.panel57.Location = new System.Drawing.Point(1246, 748);
             this.panel57.Name = "panel57";
             this.panel57.Size = new System.Drawing.Size(143, 33);
             this.panel57.TabIndex = 35;
@@ -3187,7 +3187,7 @@
             // 
             this.panel58.Controls.Add(this.radioButton115);
             this.panel58.Controls.Add(this.radioButton116);
-            this.panel58.Location = new System.Drawing.Point(1246, 636);
+            this.panel58.Location = new System.Drawing.Point(1246, 642);
             this.panel58.Name = "panel58";
             this.panel58.Size = new System.Drawing.Size(143, 33);
             this.panel58.TabIndex = 34;
@@ -3218,7 +3218,7 @@
             // 
             this.panel59.Controls.Add(this.radioButton117);
             this.panel59.Controls.Add(this.radioButton118);
-            this.panel59.Location = new System.Drawing.Point(1246, 531);
+            this.panel59.Location = new System.Drawing.Point(1246, 536);
             this.panel59.Name = "panel59";
             this.panel59.Size = new System.Drawing.Size(143, 33);
             this.panel59.TabIndex = 33;
@@ -3249,7 +3249,7 @@
             // 
             this.panel60.Controls.Add(this.radioButton119);
             this.panel60.Controls.Add(this.radioButton120);
-            this.panel60.Location = new System.Drawing.Point(1246, 426);
+            this.panel60.Location = new System.Drawing.Point(1246, 430);
             this.panel60.Name = "panel60";
             this.panel60.Size = new System.Drawing.Size(143, 33);
             this.panel60.TabIndex = 32;
@@ -3280,7 +3280,7 @@
             // 
             this.panel61.Controls.Add(this.radioButton121);
             this.panel61.Controls.Add(this.radioButton122);
-            this.panel61.Location = new System.Drawing.Point(1246, 321);
+            this.panel61.Location = new System.Drawing.Point(1246, 324);
             this.panel61.Name = "panel61";
             this.panel61.Size = new System.Drawing.Size(143, 33);
             this.panel61.TabIndex = 31;
@@ -3311,7 +3311,7 @@
             // 
             this.panel62.Controls.Add(this.radioButton123);
             this.panel62.Controls.Add(this.radioButton124);
-            this.panel62.Location = new System.Drawing.Point(1246, 216);
+            this.panel62.Location = new System.Drawing.Point(1246, 218);
             this.panel62.Name = "panel62";
             this.panel62.Size = new System.Drawing.Size(143, 33);
             this.panel62.TabIndex = 30;
@@ -3351,7 +3351,7 @@
             // label38
             // 
             this.label38.AutoSize = true;
-            this.label38.Location = new System.Drawing.Point(7, 108);
+            this.label38.Location = new System.Drawing.Point(7, 109);
             this.label38.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label38.Name = "label38";
             this.label38.Size = new System.Drawing.Size(1183, 20);
@@ -3362,7 +3362,7 @@
             // label42
             // 
             this.label42.AutoSize = true;
-            this.label42.Location = new System.Drawing.Point(7, 213);
+            this.label42.Location = new System.Drawing.Point(7, 215);
             this.label42.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label42.Name = "label42";
             this.label42.Size = new System.Drawing.Size(970, 20);
@@ -3373,7 +3373,7 @@
             // label45
             // 
             this.label45.AutoSize = true;
-            this.label45.Location = new System.Drawing.Point(7, 318);
+            this.label45.Location = new System.Drawing.Point(7, 321);
             this.label45.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label45.Name = "label45";
             this.label45.Size = new System.Drawing.Size(582, 20);
@@ -3383,7 +3383,7 @@
             // label46
             // 
             this.label46.AutoSize = true;
-            this.label46.Location = new System.Drawing.Point(7, 423);
+            this.label46.Location = new System.Drawing.Point(7, 427);
             this.label46.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label46.Name = "label46";
             this.label46.Size = new System.Drawing.Size(1157, 20);
@@ -3394,7 +3394,7 @@
             // label47
             // 
             this.label47.AutoSize = true;
-            this.label47.Location = new System.Drawing.Point(7, 528);
+            this.label47.Location = new System.Drawing.Point(7, 533);
             this.label47.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label47.Name = "label47";
             this.label47.Size = new System.Drawing.Size(1138, 40);
@@ -3406,7 +3406,7 @@
             // label49
             // 
             this.label49.AutoSize = true;
-            this.label49.Location = new System.Drawing.Point(7, 633);
+            this.label49.Location = new System.Drawing.Point(7, 639);
             this.label49.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label49.Name = "label49";
             this.label49.Size = new System.Drawing.Size(757, 20);
@@ -3417,7 +3417,7 @@
             // label50
             // 
             this.label50.AutoSize = true;
-            this.label50.Location = new System.Drawing.Point(7, 738);
+            this.label50.Location = new System.Drawing.Point(7, 745);
             this.label50.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label50.Name = "label50";
             this.label50.Size = new System.Drawing.Size(666, 20);
@@ -3427,7 +3427,7 @@
             // label51
             // 
             this.label51.AutoSize = true;
-            this.label51.Location = new System.Drawing.Point(7, 843);
+            this.label51.Location = new System.Drawing.Point(7, 851);
             this.label51.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label51.Name = "label51";
             this.label51.Size = new System.Drawing.Size(571, 20);
@@ -3472,7 +3472,7 @@
             // 
             this.panel64.Controls.Add(this.radioButton127);
             this.panel64.Controls.Add(this.radioButton128);
-            this.panel64.Location = new System.Drawing.Point(1246, 111);
+            this.panel64.Location = new System.Drawing.Point(1246, 112);
             this.panel64.Name = "panel64";
             this.panel64.Size = new System.Drawing.Size(143, 33);
             this.panel64.TabIndex = 40;
@@ -3505,7 +3505,7 @@
             this.tabPage5.Location = new System.Drawing.Point(4, 32);
             this.tabPage5.Name = "tabPage5";
             this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage5.Size = new System.Drawing.Size(1456, 989);
+            this.tabPage5.Size = new System.Drawing.Size(1456, 991);
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "Показатель № 9";
             this.tabPage5.UseVisualStyleBackColor = true;
@@ -3517,7 +3517,7 @@
             this.groupBox4.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.groupBox4.Location = new System.Drawing.Point(3, 3);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(1450, 983);
+            this.groupBox4.Size = new System.Drawing.Size(1450, 985);
             this.groupBox4.TabIndex = 37;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "№ 9 Наличие полностью оборудованных мест для мытья и обработки рук";
@@ -3598,7 +3598,7 @@
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 6.249999F));
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 6.249999F));
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 6.249999F));
-            this.tableLayoutPanel5.Size = new System.Drawing.Size(1444, 956);
+            this.tableLayoutPanel5.Size = new System.Drawing.Size(1444, 958);
             this.tableLayoutPanel5.TabIndex = 51;
             // 
             // panel66
@@ -4606,7 +4606,7 @@
             this.tabPage6.Location = new System.Drawing.Point(4, 32);
             this.tabPage6.Name = "tabPage6";
             this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage6.Size = new System.Drawing.Size(1456, 989);
+            this.tabPage6.Size = new System.Drawing.Size(1456, 991);
             this.tabPage6.TabIndex = 5;
             this.tabPage6.Text = "Показатель № 10";
             this.tabPage6.UseVisualStyleBackColor = true;
@@ -4617,7 +4617,7 @@
             this.groupBox6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox6.Location = new System.Drawing.Point(3, 3);
             this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(1450, 983);
+            this.groupBox6.Size = new System.Drawing.Size(1450, 985);
             this.groupBox6.TabIndex = 31;
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "№ 10 Соблюдение правил гигиены рук персоналам";
@@ -4646,7 +4646,7 @@
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333334F));
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333334F));
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333334F));
-            this.tableLayoutPanel6.Size = new System.Drawing.Size(1444, 956);
+            this.tableLayoutPanel6.Size = new System.Drawing.Size(1444, 958);
             this.tableLayoutPanel6.TabIndex = 51;
             // 
             // panel78
@@ -4821,7 +4821,7 @@
             this.tabPage7.Location = new System.Drawing.Point(4, 32);
             this.tabPage7.Name = "tabPage7";
             this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage7.Size = new System.Drawing.Size(1456, 989);
+            this.tabPage7.Size = new System.Drawing.Size(1456, 991);
             this.tabPage7.TabIndex = 6;
             this.tabPage7.Text = "Показатель № 11";
             this.tabPage7.UseVisualStyleBackColor = true;
@@ -4832,7 +4832,7 @@
             this.groupBox7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox7.Location = new System.Drawing.Point(3, 3);
             this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Size = new System.Drawing.Size(1450, 983);
+            this.groupBox7.Size = new System.Drawing.Size(1450, 985);
             this.groupBox7.TabIndex = 32;
             this.groupBox7.TabStop = false;
             this.groupBox7.Text = "№ 11 Соблюдение персоналом алгоритма использования индивидуальных средств защиты";
@@ -4858,14 +4858,14 @@
             this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333334F));
             this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333334F));
             this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333334F));
-            this.tableLayoutPanel7.Size = new System.Drawing.Size(1444, 956);
+            this.tableLayoutPanel7.Size = new System.Drawing.Size(1444, 958);
             this.tableLayoutPanel7.TabIndex = 51;
             // 
             // panel47
             // 
             this.panel47.Controls.Add(this.radioButton93);
             this.panel47.Controls.Add(this.radioButton94);
-            this.panel47.Location = new System.Drawing.Point(1246, 640);
+            this.panel47.Location = new System.Drawing.Point(1246, 642);
             this.panel47.Name = "panel47";
             this.panel47.Size = new System.Drawing.Size(143, 33);
             this.panel47.TabIndex = 30;
@@ -4906,7 +4906,7 @@
             // label90
             // 
             this.label90.AutoSize = true;
-            this.label90.Location = new System.Drawing.Point(7, 320);
+            this.label90.Location = new System.Drawing.Point(7, 321);
             this.label90.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label90.Name = "label90";
             this.label90.Size = new System.Drawing.Size(605, 20);
@@ -4916,7 +4916,7 @@
             // label91
             // 
             this.label91.AutoSize = true;
-            this.label91.Location = new System.Drawing.Point(7, 637);
+            this.label91.Location = new System.Drawing.Point(7, 639);
             this.label91.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label91.Name = "label91";
             this.label91.Size = new System.Drawing.Size(1159, 40);
@@ -4928,7 +4928,7 @@
             // 
             this.panel65.Controls.Add(this.radioButton129);
             this.panel65.Controls.Add(this.radioButton130);
-            this.panel65.Location = new System.Drawing.Point(1246, 323);
+            this.panel65.Location = new System.Drawing.Point(1246, 324);
             this.panel65.Name = "panel65";
             this.panel65.Size = new System.Drawing.Size(143, 33);
             this.panel65.TabIndex = 40;
@@ -4961,7 +4961,7 @@
             this.tabPage8.Location = new System.Drawing.Point(4, 32);
             this.tabPage8.Name = "tabPage8";
             this.tabPage8.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage8.Size = new System.Drawing.Size(1456, 989);
+            this.tabPage8.Size = new System.Drawing.Size(1456, 991);
             this.tabPage8.TabIndex = 7;
             this.tabPage8.Text = "Показатель № 12";
             this.tabPage8.UseVisualStyleBackColor = true;
@@ -4972,7 +4972,7 @@
             this.groupBox8.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox8.Location = new System.Drawing.Point(3, 3);
             this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Size = new System.Drawing.Size(1450, 983);
+            this.groupBox8.Size = new System.Drawing.Size(1450, 985);
             this.groupBox8.TabIndex = 32;
             this.groupBox8.TabStop = false;
             this.groupBox8.Text = "№ 12 Профилактика ИСМП у медицинского персонала";
@@ -5004,14 +5004,14 @@
             this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel8.Size = new System.Drawing.Size(1444, 956);
+            this.tableLayoutPanel8.Size = new System.Drawing.Size(1444, 958);
             this.tableLayoutPanel8.TabIndex = 51;
             // 
             // panel96
             // 
             this.panel96.Controls.Add(this.radioButton191);
             this.panel96.Controls.Add(this.radioButton192);
-            this.panel96.Location = new System.Drawing.Point(1246, 766);
+            this.panel96.Location = new System.Drawing.Point(1246, 770);
             this.panel96.Name = "panel96";
             this.panel96.Size = new System.Drawing.Size(143, 33);
             this.panel96.TabIndex = 42;
@@ -5041,7 +5041,7 @@
             // label98
             // 
             this.label98.AutoSize = true;
-            this.label98.Location = new System.Drawing.Point(7, 763);
+            this.label98.Location = new System.Drawing.Point(7, 767);
             this.label98.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label98.Name = "label98";
             this.label98.Size = new System.Drawing.Size(814, 20);
@@ -5053,7 +5053,7 @@
             // 
             this.panel14.Controls.Add(this.radioButton91);
             this.panel14.Controls.Add(this.radioButton92);
-            this.panel14.Location = new System.Drawing.Point(1246, 576);
+            this.panel14.Location = new System.Drawing.Point(1246, 579);
             this.panel14.Name = "panel14";
             this.panel14.Size = new System.Drawing.Size(143, 33);
             this.panel14.TabIndex = 31;
@@ -5084,7 +5084,7 @@
             // 
             this.panel71.Controls.Add(this.radioButton141);
             this.panel71.Controls.Add(this.radioButton142);
-            this.panel71.Location = new System.Drawing.Point(1246, 386);
+            this.panel71.Location = new System.Drawing.Point(1246, 388);
             this.panel71.Name = "panel71";
             this.panel71.Size = new System.Drawing.Size(143, 33);
             this.panel71.TabIndex = 30;
@@ -5126,7 +5126,7 @@
             // label95
             // 
             this.label95.AutoSize = true;
-            this.label95.Location = new System.Drawing.Point(7, 193);
+            this.label95.Location = new System.Drawing.Point(7, 194);
             this.label95.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label95.Name = "label95";
             this.label95.Size = new System.Drawing.Size(979, 20);
@@ -5137,7 +5137,7 @@
             // label96
             // 
             this.label96.AutoSize = true;
-            this.label96.Location = new System.Drawing.Point(7, 383);
+            this.label96.Location = new System.Drawing.Point(7, 385);
             this.label96.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label96.Name = "label96";
             this.label96.Size = new System.Drawing.Size(532, 20);
@@ -5147,7 +5147,7 @@
             // label97
             // 
             this.label97.AutoSize = true;
-            this.label97.Location = new System.Drawing.Point(7, 573);
+            this.label97.Location = new System.Drawing.Point(7, 576);
             this.label97.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label97.Name = "label97";
             this.label97.Size = new System.Drawing.Size(1050, 20);
@@ -5159,7 +5159,7 @@
             // 
             this.panel80.Controls.Add(this.radioButton159);
             this.panel80.Controls.Add(this.radioButton160);
-            this.panel80.Location = new System.Drawing.Point(1246, 196);
+            this.panel80.Location = new System.Drawing.Point(1246, 197);
             this.panel80.Name = "panel80";
             this.panel80.Size = new System.Drawing.Size(143, 33);
             this.panel80.TabIndex = 40;
@@ -5224,7 +5224,7 @@
             this.tabPage9.Location = new System.Drawing.Point(4, 32);
             this.tabPage9.Name = "tabPage9";
             this.tabPage9.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage9.Size = new System.Drawing.Size(1456, 989);
+            this.tabPage9.Size = new System.Drawing.Size(1456, 991);
             this.tabPage9.TabIndex = 8;
             this.tabPage9.Text = "Результаты";
             this.tabPage9.UseVisualStyleBackColor = true;
@@ -5256,7 +5256,7 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(1226, 983);
+            this.dataGridView1.Size = new System.Drawing.Size(1226, 985);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
