@@ -386,7 +386,6 @@ namespace Accounting
         private void показатьРезульатыВПрограммеToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
-
             try
             {
                 if (!CheckRadioButton())
